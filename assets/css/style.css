@@ -1,0 +1,128 @@
+body {background-image: url(../images/Hyrule.jpg);
+	background-size: cover;
+}
+
+.header {font-family: 'Marcellus SC', serif;
+	font-size: 50px;
+	font-weight: bold;
+	background-color: rgba(73,75,75,0.8);
+	color: #d4ce46;
+	padding: 10px;
+	max-width: 330px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+
+#windcrest { width: 100px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+.instructions {font-family: 'Marcellus SC', serif;
+	font-size: 20px;
+	background-color: rgba(73,75,75,0.8);
+	color: #d4ce46;
+	padding: 10px;
+	max-width: 330px;
+	position: relative;
+	top: 130px;
+}
+
+.flowerPrice {font-family: 'Marcellus SC', serif;
+	font-size: 25px;
+	color: #d4ce46;
+	padding: 20px 10px;
+	max-width: 330px;
+	background-color: rgba(14,81,53, 0.8);
+	position: relative;
+	top: 140px;
+
+}
+
+#flower {width: 80px;
+	height: auto;
+	position: absolute;
+	top: 10px;
+	right: 0;
+
+}
+
+.scoreSection {font-family: 'Marcellus SC', serif;
+	font-size: 25px;
+	color: #d4ce46;
+	padding: 20px 10px;
+	max-width: 330px;
+	background-color: rgba(13,146,99, 0.8);
+	position: relative;
+	top: 150px;
+}
+
+#pouch {width: 50px;
+	height: auto;
+	padding-right: 20px;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
+
+.status {font-family: 'Marcellus SC', serif;
+	font-size: 20px;
+	line-height: 25px;
+	color: #494b4b;
+	padding: 10px 10px;
+	max-width: 330px;
+	background-color: rgba(212,206,70, 0.8);
+	position: relative;
+	top: 160px;
+
+}
+
+
+
+/*Rupees*/
+#purple {width: 30px;
+	height: auto;
+	position: relative;
+	top: -120px;
+	left:900px;
+	-webkit-transform: rotate(20deg);
+}
+
+#green {width: 80px;
+	height: auto;
+	position: relative;
+	top: 70px;
+	left: 580px;
+	-webkit-transform: rotate(43deg);
+}
+
+#gold {width: 55px;
+	height: auto;
+	position: relative;
+	top: -10px;
+	left:930px;
+	-webkit-transform: rotate(-30deg);
+}
+
+#blue {width: 20px;
+	height: auto;
+	position: relative;
+	top: -150px;
+	left:800px;
+	-webkit-transform: rotate(7deg);
+}
+
+/*Footer*/
+footer {font-family: 'Marcellus SC', serif;
+	padding: 0 10px 5px 0;
+
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
