@@ -130,3 +130,8 @@ footer {font-family: 'Marcellus SC', serif;
 	bottom: 0;
 	right: 0;
 }
+
+a {text-decoration: underline;
+	color: black;
+
+}
