@@ -16,40 +16,42 @@
 		</div>
 
 		<section class="instructions">
-			<p>Ganon took over the Hyrule again. Zelda is not happy and you need to buy some flowers since Ganon burned all the ones around the castle, the Gerudo, well, it's a desert, and the Zora don't really have anything but seeweeds.</p>
+			<p>Ganon took over Hyrule again. Zelda is not happy and you need to give her flowers, but Ganon burned all the ones around the castle. Gerudo is a desert and the Zora don't really have anything but seaweeds, so a Goron flowerbomb it is!</p>
 			<br>
-			<p>The florist is picky. He will only sell you the flower if you give him the exact amount he asks. </p>
+			<p>The Goron florist is picky. He will only sell you the flower if you give him the exact amount he asks. </p>
 			<br>
-			<p>Find and click on the rupees scattered around the field, and try to meet the price of the flowers. Match the offer to win and save the kingdom. Offer more than the asked price... Well, good Luck!</p>
+			<p>Find and click on the rupees scattered around the field to match the price of the flower, win, and save the kingdom. Fail to match the exact amount and no flower for Zelda. Good Luck!</p>
 		</section>
 		
 		<div class="flowerPrice">
-			<p>Bouqute Price</p>
-			<p id="price">#</p>
+			<p>Flowerbomb Price</p>
+			<p id="price"></p>
 			<img id="flower" src="assets/images/Flower.png" alt="Flower bomb">
 		</div>
 
 		<div class="scoreSection">
 			<p>Rupees Collected</p>
-			<p id="budget">#</p>
+			<p id="budget"></p>
 			<img id="pouch" src="assets/images/Pouch.png" alt="Rupee pouch">
 		</div>
 
 		<div class="status">
-			<p id="wins"> Wins: #</p>
-			<p id="losses"> Losses: #</p>	
+			<p id="wins"> Wins: </p>
+			<p id="losses"> Losses: </p>	
 		</div>
-
-		<img class="rupee" id="blue" src="assets/images/Blue.png" alt="Blue rupee">
-		<img class="rupee" id="gold" src="assets/images/Gold.png" alt="Gold rupee">
-		<img class="rupee" id="green" src="assets/images/Green.png" alt="Green rupee">
-		<img class="rupee" id="purple" src="assets/images/Purple.png" alt="Purple rupee">
-
+		
+		<div class="rupees">
+			<input type="image" class="rupeeImage" id="blue" src="assets/images/Blue.png" alt="Blue rupee" dataRupeeValue="">
+			<input type="image" class="rupeeImage" id="gold" src="assets/images/Gold.png" alt="Gold rupee">
+			<input type="image" class="rupeeImage" id="green" src="assets/images/Green.png" alt="Green rupee">
+			<input type="image" class="rupeeImage" id="purple" src="assets/images/Purple.png" alt="Purple rupee">
+		</div>
 	</div>
-	
-	
+
 	<footer>Copyright © 2017 <a href="https://github.com/carlosfgutier" target="_blank">Carlosfgutier
 	</footer>
+
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 	<script type="text/javascript" src="assets/js/game.js"></script>
 </body>

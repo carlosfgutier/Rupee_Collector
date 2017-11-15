@@ -1,7 +1,9 @@
 body {background-image: url(../images/Hyrule.jpg);
 	background-size: cover;
+	overflow: hidden;
 }
 
+/*header*/
 .header {font-family: 'Marcellus SC', serif;
 	font-size: 50px;
 	font-weight: bold;
@@ -9,7 +11,7 @@ body {background-image: url(../images/Hyrule.jpg);
 	color: #d4ce46;
 	padding: 10px;
 	max-width: 330px;
-	margin-bottom: 5px;
+	margin: 5px 0;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -34,6 +36,7 @@ body {background-image: url(../images/Hyrule.jpg);
 	top: 130px;
 }
 
+/*price section*/
 .flowerPrice {font-family: 'Marcellus SC', serif;
 	font-size: 25px;
 	color: #d4ce46;
@@ -53,6 +56,7 @@ body {background-image: url(../images/Hyrule.jpg);
 
 }
 
+/*score section*/
 .scoreSection {font-family: 'Marcellus SC', serif;
 	font-size: 25px;
 	color: #d4ce46;
@@ -71,6 +75,7 @@ body {background-image: url(../images/Hyrule.jpg);
 	right: 0;
 }
 
+/*win/losse*/
 .status {font-family: 'Marcellus SC', serif;
 	font-size: 20px;
 	line-height: 25px;
@@ -82,8 +87,6 @@ body {background-image: url(../images/Hyrule.jpg);
 	top: 160px;
 
 }
-
-
 
 /*Rupees*/
 #purple {width: 30px;
@@ -120,8 +123,9 @@ body {background-image: url(../images/Hyrule.jpg);
 
 /*Footer*/
 footer {font-family: 'Marcellus SC', serif;
+	font-size: 12px;
+	text-decoration: none;
 	padding: 0 10px 5px 0;
-
 	position: fixed;
 	bottom: 0;
 	right: 0;
