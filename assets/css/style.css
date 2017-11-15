@@ -1,7 +1,7 @@
 body {background-image: url(../images/Hyrule.jpg);
 	background-size: cover;
-	overflow: hidden;
-}
+/*	overflow-y: hidden;
+*/}
 
 /*header*/
 .header {font-family: 'Marcellus SC', serif;

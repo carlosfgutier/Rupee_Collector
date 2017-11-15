@@ -18,7 +18,6 @@ $("#budget").text("$ " + counter);
 for (var i = 0; i < rupeeQuantity.length; i++) {
 	var newValue = Math.floor((Math.random() * 11) + 1);
 	rupeeValues.push(newValue);
-	console.log(rupeeValues);
 }
 
 //Assign one random number to each crystal
@@ -34,24 +33,20 @@ $(".rupeeImage").each(function(index, item){
 $(".rupeeImage").on("click", function() {
 	var singleRupeeValue = $(this).attr("data-rupee-value");
 	singleRupeeValue = parseInt(singleRupeeValue)
-	console.log(singleRupeeValue);
 
 	counter = counter + singleRupeeValue;
-	console.log("Collected " + counter);
 
 	$("#budget").text("$ " + counter);
 
 	if (counter > targetNumber) {
 		losses++;
-		console.log(losses);
 		$("#losses").text("Losses: " + losses);
-		alert("You lose!");
+		alert("You losse! No flower for Zelda, no luck for you.");
 		reset();
 	} else if (counter === targetNumber) {
 		wins++;
-		console.log(wins);
 		$("#wins").text("Wins: " + wins);
-		alert("you win!")
+		alert("You win! Your neck and the kingdom are safe.")
 		reset();
 	}
 });
@@ -70,7 +65,6 @@ function reset () {
 	for (var i = 0; i < rupeeQuantity.length; i++) {
 		var newValue = Math.floor((Math.random() * 11) + 1);
 		rupeeValues.push(newValue);
-		console.log(rupeeValues);
 	}
 
 	//generate new rupee values
