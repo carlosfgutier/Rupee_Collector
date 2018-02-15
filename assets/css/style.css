@@ -182,7 +182,7 @@ a {
 		width: 100%;
 		position: relative;
 		border-radius: 25px;
-		margin: 10px 5%;
+		margin: 10px 0;
 	}
 
 	#windcrest { 
@@ -202,15 +202,16 @@ a {
 		overflow-y: scroll;
 		position: relative;
 		border-radius: 25px;
-		margin: 10px 5%;
+		margin: 10px 0;
 	}
 
 	.flowerPrice {
 		font-family: 'Marcellus SC', serif;
 		font-size: 50px;
+		line-height: 75px;
 		color: #d4ce46;
 		padding: 20px 10px;
-		margin: 5px 0 5px 5%;
+		margin: 5px 0 5px;
 		width: 47%;
 		height: 150px;
 		position: relative;
@@ -231,12 +232,13 @@ a {
 	.scoreSection {
 		font-family: 'Marcellus SC', serif;
 		font-size: 50px;
+		line-height: 75px;
 		color: #d4ce46;
 		padding: 20px 10px;
 		width: 47%;
 		height: 150px;
 		position: relative;
-		left: 58%;
+		left: 53%;
 		bottom: 195px;
 		background-color: rgba(13,146,99, 0.8);
 		border-radius: 25px;
@@ -250,6 +252,42 @@ a {
 		position: absolute;
 		top: 5px;
 		right: 0;
+	}
+
+	/*Rupees*/
+	#purple {
+		width: 80px;
+		height: auto;
+		position: fixed;
+		left: 330px;
+		bottom: 250px;
+		-webkit-transform: rotate(20deg);
+	}
+
+	#green {
+		width: 80px;
+		height: auto;
+		position: fixed;
+		left: 80px;
+		bottom: 100px;
+		-webkit-transform: rotate(43deg);
+	}
+
+	#gold {width: 80px;
+		height: auto;
+		position: fixed;
+		top: 910;
+		left: 630px;
+		-webkit-transform: rotate(-30deg);
+	}
+
+	#blue {
+		width: 80px;
+		height: auto;
+		position: fixed;
+		left: 800px;
+		bottom: 370px;
+		-webkit-transform: rotate(7deg);
 	}
 
 	/*win/losse*/
