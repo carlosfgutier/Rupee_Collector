@@ -210,8 +210,9 @@ a {
 		font-size: 50px;
 		color: #d4ce46;
 		padding: 20px 10px;
-		margin: 5px 0;
-		width: 40%;
+		margin: 5px 0 5px 5%;
+		width: 47%;
+		height: 150px;
 		position: relative;
 		background-color: rgba(14,81,53, 0.8);
 		border-radius: 25px;
@@ -232,10 +233,14 @@ a {
 		font-size: 50px;
 		color: #d4ce46;
 		padding: 20px 10px;
-		width: 40%;
+		width: 47%;
+		height: 150px;
 		position: relative;
+		left: 58%;
+		bottom: 195px;
 		background-color: rgba(13,146,99, 0.8);
 		border-radius: 25px;
+		display: inline-block;
 	}
 
 	#pouch {
@@ -255,9 +260,26 @@ a {
 		color: #494b4b;
 		padding: 10px 10px;
 		margin: 5px 0;
-		width: 40%;
+		width: 100%;
 		background-color: rgba(212,206,70, 0.8);
-		border-radius: 25px;
+		position: fixed;
+		bottom: 0px;
+	}
+
+	#wins {
+		display: inline-block;
+		position: relative;
+		left: 10%;
+
+	}
+	#losses {
+		display: inline-block;
+		position: relative;
+		left: 60%;
+	}
+
+	footer {
+		display: none;
 	}
 	
 }
