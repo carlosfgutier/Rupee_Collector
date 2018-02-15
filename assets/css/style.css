@@ -218,11 +218,11 @@ a {
 	}
 
 	#flower {
-		width: 80px;
+		width: 150px;
 		height: auto;
 		position: absolute;
-		top: 10px;
-		right: 0;
+		top: 80px;
+		right: 10px;
 		border-radius: 25px;
 	}
 
@@ -244,12 +244,12 @@ a {
 	}
 
 	#pouch {
-		width: 50px;
+		width: 90px;
 		height: auto;
 		padding-right: 20px;
 		position: absolute;
-		top: 5px;
-		right: 0;
+		top: 70px;
+		right: 10px;
 	}
 
 	/*Rupees*/
