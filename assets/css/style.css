@@ -1,10 +1,13 @@
-body {background-image: url(../images/Hyrule.jpg);
+body {
+	background-image: url(../images/Hyrule.jpg);
 	background-size: cover;
-/*	overflow-y: hidden;
-*/}
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
 
 /*header*/
-.header {font-family: 'Marcellus SC', serif;
+.header {
+	font-family: 'Marcellus SC', serif;
 	font-size: 50px;
 	font-weight: bold;
 	background-color: rgba(73,75,75,0.8);
@@ -12,62 +15,82 @@ body {background-image: url(../images/Hyrule.jpg);
 	padding: 10px;
 	max-width: 330px;
 	margin: 5px 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-
+	position: relative;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
-#windcrest { width: 100px;
+#windcrest { 
+	width: 100px;
 	height: auto;
 	position: absolute;
-	top: 0;
-	right: 0;
-
+	top: 10px;
+	right: 10px;
 }
 
-.instructions {font-family: 'Marcellus SC', serif;
+#storyButton {
+	background-color: #d4ce46;
+	font-family: 'Marcellus SC', serif;
+	font-size: 20px;
+	color: rgba(73,75,75);
+	padding: 10px;
+	width: 60px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	display: none;
+}
+
+.instructions {
+	font-family: 'Marcellus SC', serif;
 	font-size: 20px;
 	background-color: rgba(73,75,75,0.8);
 	color: #d4ce46;
 	padding: 10px;
+	margin: 5px 0;
 	max-width: 330px;
-	position: relative;
-	top: 130px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 /*price section*/
-.flowerPrice {font-family: 'Marcellus SC', serif;
+.flowerPrice {
+	font-family: 'Marcellus SC', serif;
 	font-size: 25px;
 	color: #d4ce46;
 	padding: 20px 10px;
+	margin: 5px 0;
 	max-width: 330px;
-	background-color: rgba(14,81,53, 0.8);
 	position: relative;
-	top: 140px;
-
+	background-color: rgba(14,81,53, 0.8);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
-#flower {width: 80px;
+#flower {
+	width: 80px;
 	height: auto;
 	position: absolute;
 	top: 10px;
 	right: 0;
-
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 /*score section*/
-.scoreSection {font-family: 'Marcellus SC', serif;
+.scoreSection {
+	font-family: 'Marcellus SC', serif;
 	font-size: 25px;
 	color: #d4ce46;
 	padding: 20px 10px;
 	max-width: 330px;
-	background-color: rgba(13,146,99, 0.8);
 	position: relative;
-	top: 150px;
+	background-color: rgba(13,146,99, 0.8);
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
-#pouch {width: 50px;
+#pouch {
+	width: 50px;
 	height: auto;
 	padding-right: 20px;
 	position: absolute;
@@ -76,53 +99,58 @@ body {background-image: url(../images/Hyrule.jpg);
 }
 
 /*win/losse*/
-.status {font-family: 'Marcellus SC', serif;
+.status {
+	font-family: 'Marcellus SC', serif;
 	font-size: 20px;
 	line-height: 25px;
 	color: #494b4b;
 	padding: 10px 10px;
+	margin: 5px 0;
 	max-width: 330px;
 	background-color: rgba(212,206,70, 0.8);
-	position: relative;
-	top: 160px;
-
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
 
 /*Rupees*/
-#purple {width: 30px;
+#purple {
+	width: 30px;
 	height: auto;
 	position: relative;
-	top: -120px;
 	left:900px;
+	bottom: 280px;
 	-webkit-transform: rotate(20deg);
 }
 
-#green {width: 80px;
+#green {
+	width: 80px;
 	height: auto;
 	position: relative;
-	top: 70px;
 	left: 580px;
+	bottom: 80px;
 	-webkit-transform: rotate(43deg);
 }
 
 #gold {width: 55px;
 	height: auto;
 	position: relative;
-	top: -10px;
 	left:930px;
+	bottom: 110px;
 	-webkit-transform: rotate(-30deg);
 }
 
-#blue {width: 20px;
+#blue {
+	width: 20px;
 	height: auto;
 	position: relative;
-	top: -150px;
 	left:800px;
+	bottom: 300px;
 	-webkit-transform: rotate(7deg);
 }
 
 /*Footer*/
-footer {font-family: 'Marcellus SC', serif;
+footer {
+	font-family: 'Marcellus SC', serif;
 	font-size: 12px;
 	text-decoration: none;
 	padding: 0 10px 5px 0;
@@ -131,7 +159,7 @@ footer {font-family: 'Marcellus SC', serif;
 	right: 0;
 }
 
-a {text-decoration: underline;
+a {
+	text-decoration: underline;
 	color: black;
-
 }

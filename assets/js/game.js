@@ -21,10 +21,6 @@ for (var i = 0; i < rupeeQuantity.length; i++) {
 }
 
 //Assign one random number to each crystal
-// $("#blue").attr("data-rupeeValue", rupeeValues[0]);
-// $("#gold").attr("data-rupeeValue", rupeeValues[1]);
-// $("#green").attr("data-rupeeValue", rupeeValues[2]);
-// $("#purple").attr("data-rupeeValue", rupeeValues[3]);
 $(".rupeeImage").each(function(index, item){
 	$(item).attr("data-rupee-value", rupeeValues[index]);
 });
