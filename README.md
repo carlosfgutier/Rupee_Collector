@@ -12,3 +12,5 @@ Rupee_Collector is a game that challenges the player to match a price by clickin
 2. Open index.html in browser.
 
 ![alt text](https://raw.githubusercontent.com/carlosfgutier/Rupee_Collector/master/assets/images/RP.png)
+
+![alt text](https://raw.githubusercontent.com/carlosfgutier/Rupee_Collector/master/assets/images/responsiveUI.png)
